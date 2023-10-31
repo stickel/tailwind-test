@@ -129,10 +129,6 @@ const updateValue = (event: Event) => {
   quantity.value = parseFloat((event.target as HTMLInputElement).value);
   emit('update:value', (event.target as HTMLInputElement).value);
 };
-
-const buttonClasses = computed(() => {
-  return {};
-});
 </script>
 
 <template>

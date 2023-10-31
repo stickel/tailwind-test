@@ -33,7 +33,7 @@
       "@fortawesome/vue-fontawesome": "^3.0.3",
       "@headlessui/tailwindcss": "^0.2.0",
       "@headlessui/vue": "^1.7.15",
-      "@privateLib/uikit": "^0.3.3",
+      "@privateLib/uikit": "file:../library/uikit/",
       "@vueuse/components": "^10.3.0",
       "@vueuse/core": "^10.3.0",
       "hypernova": "^2.5.0",

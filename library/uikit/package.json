@@ -12,7 +12,8 @@
     "types": "./dist/index.d.ts",
     "files": [
       "dist",
-      "tailwind.config.js"
+      "tailwind.config.js",
+      "tailwind-presets/core.js"
     ],
     "scripts": {
       "dev": "vite build --watch",

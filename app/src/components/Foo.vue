@@ -74,7 +74,7 @@ const removeProduct = () => {
 <template>
   <div class="tw-box-border tw-flex tw-w-full tw-flex-col">
     <QuantityControl
-      label="Items"
+      :label="['Item', 'Items']"
       :value="product.quantity"
       class="tw-mb-4 tw-w-full xl:tw-mb-0 xl:tw-max-w-md"
       @update:value="updateQuantity($event)"
